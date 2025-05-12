@@ -1,0 +1,11 @@
+[sources.wikipedia_sse]
+api_url = "https://stream.wikimedia.org/v2/stream/recentchange"
+request_timeout = 300
+max_retries = 10
+backoff_factor = 10
+max_backoff 
+
+[runtime]
+log_level="WARNING"  # the system log level of dlt
+# use the dlthub_telemetry setting to enable/disable anonymous usage data reporting, see https://dlthub.com/docs/reference/telemetry
+dlthub_telemetry = true
