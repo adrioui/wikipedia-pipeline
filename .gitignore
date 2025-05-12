@@ -174,3 +174,4 @@ pyrightconfig.json
 *.duckdb*
 *.wal
 *.tmp/
+*.db*
